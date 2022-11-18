@@ -10,15 +10,12 @@ import android.view.ViewGroup;
 
 public class FragmentSecondActivity extends Fragment {
 
-
-
     public FragmentSecondActivity() {
         // Required empty public constructor
     }
 
     public static FragmentSecondActivity newInstance(String param1, String param2) {
         FragmentSecondActivity fragment = new FragmentSecondActivity();
-
         return fragment;
     }
 
